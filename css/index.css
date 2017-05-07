@@ -1,18 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+
+nav {
+	overflow: hidden;
+	float: right;
+}
+
+nav li {
+	float:left;
+	list-style: none;
+}
+nav li a {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 30px;
+	color: black;
+}
+
+nav li a:hover {
+	color: #a45f93;
+}
 main {
 text-align: center;
 }
-header {
-text-align: center;
-}
-body {
-	background:
-     #EAECF0 
-}
-
-* {
-    color: black;
+#who-we-are {
+	font-size: 30px;
+	height:350px;
+	margin: 1px 1px 1px 1px;
+	padding: 30px;
 }
 
-main {
-text-align: center;
+#service {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+
+#partners {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+
+#feedback {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+#contact {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
 }
