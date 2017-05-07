@@ -8,7 +8,6 @@ html,body {
 	height: 100%;
 }
 
-
 nav {
 	overflow: hidden;
 	float: right;
@@ -26,16 +25,23 @@ nav li a {
 	color: black;
 }
 
+
+main, footer {
+text-align: center;
+}
+
 nav li a:hover {
 	color: #a45f93;
 }
-main {
-text-align: center;
-}
+
 #who-we-are {
-	font-size: 30px;
+    font-size: 20px;
 	height:350px;
 	margin: 1px 1px 1px 1px;
+	padding: 30px;
+	background-image:pictures/lviv.jpg;
+	border-top-style: solid;
+	line-height: 1.5;
 	padding: 30px;
 }
 
@@ -43,21 +49,25 @@ text-align: center;
 	border-top-style: solid;
 	line-height: 1.5;
 	padding: 30px;
+	background-color: #F2F2F2;
 }
 
 #partners {
 	border-top-style: solid;
 	line-height: 1.5;
 	padding: 30px;
+	background-color: #F2F2F2;
 }
 
 #feedback {
 	border-top-style: solid;
 	line-height: 1.5;
 	padding: 30px;
+	background-color: #F2F2F2;
 }
 #contact {
 	border-top-style: solid;
 	line-height: 1.5;
 	padding: 30px;
+	background-color: #F2F2F2;
 }
