@@ -45,7 +45,7 @@ nav li a:hover {
 	height:500px;
 	background-image: "pen-on-paper.jpg";
 	line-height: 1.5;
-	
+
 }
 
 #who-we-are {
@@ -56,7 +56,6 @@ nav li a:hover {
 	background-image: url("pictures/lviv.jpg");
 	border-top-style: solid;
 	line-height: 1.5;
-
 }
 
 #service {
