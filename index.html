@@ -5,7 +5,7 @@
         <title>Document</title>
         <style>
             .toolbar li {
-                display:inline;
+                display: inline;
                 background-color: #aaa;
                 border: 1px solid;
                 border-color: #F3F3F3;
@@ -14,20 +14,21 @@
             }
         </style>
         <link rel="stylesheet" href="css/index.css">
+        
     </head>
-   
+    
     <body>
         <header>
             <p>
                 <img src="pictures/title1.jpg" alt="title" width="115" height="140" class="leftpic">
             </p>
             
-            <div>
-            <p>Адвокатське об'єднання "Екс Юре"</p>
-            <br>
-            <p>Ми поруч, ти не один</p>
-            </div>
+                <p>Адвокатське об'єднання "Екс Юре"</p>
+                <br>
+                <p>Ми поруч, ти не один</p>
             
+            
+           
             <nav id="toolbar">
                 <ul class="toolbar">
                     <li>
@@ -45,40 +46,48 @@
                     <li>
                         <a href="#contact">КОНТАКТИ</a>
                     </li>
-                    
                 </ul>
             </nav>
-            <form  method="POST" action="https://formspree.io/ssbron2@gmail.com">
-                    <input type="submit" value="ЗАМОВИТИ ДЗВІНОК">
+            <form method="POST" action="https://formspree.io/ssbron2@gmail.com">
+                <input type="submit" value="ЗАМОВИТИ ДЗВІНОК">
             </form>
             
-            <div id="about">
-            <h3>Персональні правові рішення від досвідчених юристів</h3>
-            <h3>Робимо ваше юридичне життя простішим</h3>
-            <h3>Залиште заявку та отримайте безкоштовну консультацію від спеціаліста</h3>
-            </div>
             
-            <form  method="POST" action="https://formspree.io/ssbron2@gmail.com">
+            <div>
+            <section id="about">
+                <h3>Персональні правові рішення від досвідчених юристів</h3>
+                <h3>Робимо ваше юридичне життя простішим</h3>
+                <h3 class="selected">Залиште заявку та отримайте безкоштовну консультацію від спеціаліста</h3>
+                
+            <form method="POST" action="https://formspree.io/ssbron2@gmail.com">
                 <label>
                     <input type="text" name="name" placeholder="ім'я" required>
                 </label>
-               
                 <label>
                     <input type="text" name="phone" placeholder="+38(067)666-66-66" required>
                 </label>
                 <input type="submit" value="ОТРИМАТИ БЕЗКОШТОВНУ КОНСУЛЬТАЦІЮ">
             </form>
-           
+            </section>
+            </div>
+            </header>
             
-        </header>
+            
+            <div>
+        
         <main>
             <section id="who-we-are">
                 <h1>ХТО МИ</h1>
                 <p>
                     АО «Екс Юре» створене для сприяння захисту прав, свобод та представництва законних інтересів <br>
                     учасників приватних та публічних відносин, надання їм іншої юридичної допомоги, зокрема забезпечення права на захист <br>від обвинувачення та надання правової допомоги при вирішенні справ у судах та інших державних органах.
+                
                 </p>
-                <img src="pictures/cheaf.jpg" alt="cheaf" width="150" height="200">   <img src="pictures/stas.jpg" alt="stas" width="150" height="200">   <img src="pictures/pavlo.jpg" alt="pavlo" width="150" height="200">   <img src="pictures/oleg.jpg" alt="oleg" width="150" height="200">   <img src="pictures/andriana.jpg" alt="andriana" width="150" height="200">
+                <img src="pictures/cheaf.jpg" alt="cheaf" width="150" height="200">
+                <img src="pictures/stas.jpg" alt="stas" width="150" height="200">
+                <img src="pictures/pavlo.jpg" alt="pavlo" width="150" height="200">
+                <img src="pictures/oleg.jpg" alt="oleg" width="150" height="200">
+                <img src="pictures/andriana.jpg" alt="andriana" width="150" height="200">
             </section>
             <section id="service">
                 <h1>ПОСЛУГИ</h1>
@@ -130,7 +139,7 @@
 
 - Надання всієї необхідної допомоги громадянам відповідно до Закону України "Про адвокатуру та адвокатську діяльність"</p>
                 <p>Залишилось запитання? Дізнайтеся більше про наші послуги - отримайте розгорнуту відповідь фахівця</p>
-                <form  method="POST" action="https://formspree.io/ssbron2@gmail.com">
+                <form method="POST" action="https://formspree.io/ssbron2@gmail.com">
                     <label>
                         <input type="text" name="name" placeholder="ім'я" required>
                     </label>
@@ -147,40 +156,55 @@
                         <br>
                         <textarea name="field" rows="5" cols="70" placeholder="поле для вводу повідомлення"></textarea>
                     </label>
+                    <br>
                     <input type="submit" value="ВІДПРАВИТИ" style="red">
                 </form>
             </section>
             
             <section id="partners">
                 <h1>НАШІ ПАРТНЕРИ</h1>
-                 
                 <figure>
-            <img src="pictures/logo_spy.png" alt="spy">
-            <figcaption><a href="http://spy.lviv.ua/">Детективне агентство "СПАЙ"</a></figcaption>
-            </figure>
-            
-            <figure>
-             <img src="pictures/logo_konceptual.png" alt="konceptual">
-            <figcaption><a href="http://spy.lviv.ua/">Аудиторська компанія "Концептуаль"</a></figcaption>
-            </figure>
-            
+                    <img src="pictures/logo_spy.png" alt="spy" width="200" height="200">
+                    <figcaption>
+                        <a href="http://spy.lviv.ua/">Детективне агентство "СПАЙ"</a>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="pictures/logo_konceptual.png" alt="konceptual" width="200" height="200">
+                    <figcaption>
+                        <a href="http://spy.lviv.ua/">Аудиторська компанія "Концептуаль"</a>
+                    </figcaption>
+                </figure>
             </section>
-
-<section id="feedback">
-    <h1>ВІДГУКИ НАШИХ КЛІЄНТІВ</h1>
-</section>
-</main>
-<footer>
-    <section id="contact">
-        <h1 style="color:#FF0000">НАШІ КОНТАКТИ</h1>
-        <p style="color:#FF0000">м. Львів, вул. Ш.Руставелі, 18<br>
-0677443935<br>
-0676795600<br>
-0971994719<br>
-e-mail: stanislav@ex-jure.com.ua</p>
-    <a href="https://www.youtube.com/watch?v=xERG_qwe4j8"><img src="pictures/youtube.png" alt="youtube" width="25" height="25"></a> <a href="https://www.facebook.com/groups/676252905816297/"><img src="pictures/fblogo.png" alt="facebook" width="25" height="25"></a> <a href="https://https://vk.com/club58824646/"><img src="pictures/vk-logo.png" alt="vkontakti" width="25" height="25"></a>
-    </section>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5147.255394557586!2d24.029195663141255!3d49.83066223978383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add67943beac1%3A0xc29ba8d94baeb274!2z0LLRg9C70LjRhtGPINCo0L7RgtCwINCg0YPRgdGC0LDQstC10LvRliwgMTgsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1suk!2sua!4v1494174980463" width="1400" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</footer>
-</body></html>
+            <section id="feedback">
+                <h1>ВІДГУКИ НАШИХ КЛІЄНТІВ</h1>
+            </section>
+            </main>
+            </div>
+            
+        <footer>
+            <section id="contact">
+                <h1 style="color:#FF0000">НАШІ КОНТАКТИ</h1>
+                <p style="color:#FF0000">
+                    м. Львів, вул. Ш.Руставелі, 18<br>
+                    0677443935<br>
+                    0676795600<br>
+                    0971994719<br>
+                    e-mail: stanislav@ex-jure.com.ua<br>
+                </p>
+                <a href="https://www.youtube.com/watch?v=xERG_qwe4j8">
+                    <img src="pictures/youtube.png" alt="youtube" width="25" height="25">
+                </a>
+                <a href="https://www.facebook.com/groups/676252905816297/">
+                    <img src="pictures/fblogo.png" alt="facebook" width="25" height="25">
+                </a>
+                <a href="https://https://vk.com/club58824646/">
+                    <img src="pictures/vk-logo.png" alt="vkontakti" width="25" height="25">
+                </a>
+            </section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5147.255394557586!2d24.029195663141255!3d49.83066223978383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add67943beac1%3A0xc29ba8d94baeb274!2z0LLRg9C70LjRhtGPINCo0L7RgtCwINCg0YPRgdGC0LDQstC10LvRliwgMTgsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1suk!2sua!4v1494174980463" width="1400" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </footer>
+        
+    </body>
+</html>
 

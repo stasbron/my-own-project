@@ -8,6 +8,10 @@ html,body {
 	height: 100%;
 }
 
+html,body {
+	font-family: 'Cormorant Garamond', serif;
+}
+
 nav {
 	overflow: hidden;
 	float: right;
@@ -30,20 +34,21 @@ main, footer {
 text-align: center;
 }
 
+.selected {
+	color:red;
+}
+
 nav li a:hover {
 	color: #a45f93;
 }
-#toolbar {
-	
-}
+
 #about {
 	font-size: 20px;
 	height:500px;
-	margin: 1px 1px 1px 1px;
-	padding: 30px;
-	background-image:"pictures/pen-on-paper.jpg";
+	background-image: "pen-on-paper.jpg";
 	border-top-style: solid;
 	line-height: 1.5;
+	
 }
 #who-we-are {
     font-size: 20px;
