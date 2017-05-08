@@ -44,7 +44,6 @@ nav li a:hover {
 	font-size: 20px;
 	height:500px;
 	background-image: "pen-on-paper.jpg";
-	border-top-style: solid;
 	line-height: 1.5;
 	
 }
@@ -67,9 +66,6 @@ nav li a:hover {
 	background-color: #F2F2F2;
 }
 
-#service p:hover{
-	color: red;
-}
 
 #partners {
 	border-top-style: solid;
