@@ -22,7 +22,7 @@ nav li a {
 	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 0 30px;
+	padding: 0 20px;
 	color: black;
 }
 
@@ -39,21 +39,29 @@ nav li a:hover {
 	color: #a45f93;
 }
 
-
-#about {
+#info {
 	font-size: 20px;
-	height:500px;
-	background-image: "pen-on-paper.jpg";
-	line-height: 1.5;
+	height:245px;
+	margin: 0;
+	padding: 20px;
 
+}
+
+#order {
+	font-size: 20px;
+	height:400px;
+	margin: 0;
+	padding: 20px;
+	background-image:"lviv.jpg";
+	border-top-style: solid;
+	line-height: 3;
 }
 
 #who-we-are {
     font-size: 20px;
 	height:500px;
 	margin: 1px 1px 1px 1px;
-	padding: 30px;
-	background-image: url("pictures/lviv.jpg");
+	padding: 20px;
 	border-top-style: solid;
 	line-height: 1.5;
 }
