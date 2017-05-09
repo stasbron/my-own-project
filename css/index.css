@@ -4,10 +4,69 @@
 }
 
 html,body {
-	width: max-width;
-	height: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-color: #D3D3D3;
+
 }
 
+main, footer{
+text-align: center;
+}
+
+#info {
+	height: 130px;
+    margin: 0;
+    padding-bottom: 55px;
+    background-color: #FFFFFF;
+}
+
+#picture{
+    float:left;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+#logo {
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	float:left;
+	margin-top: 20px;
+}
+
+#motto {
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	left: 80px;
+	float:left;
+	margin-top: 30px;
+}
+
+#phone1 {
+	font-family: 'Merriweather', serif;
+	position: relative;
+	font-size: 15px;
+	left: 80px;
+	top: 10px;
+	margin-top: 20px;
+}
+#phone2 {
+	font-family: 'Merriweather', serif;
+	position: relative;
+	font-size: 15px;
+	right: 60;
+	bottom: 0;
+	margin-top: 20px;
+}
+
+#phone3 {
+	font-family: 'Merriweather', serif;
+	position: relative;
+	font-size: 15px;
+	right: 70;
+	bottom: 0;
+	margin-top: 20px;
+}
 
 nav {
 	overflow: hidden;
@@ -19,77 +78,108 @@ nav li {
 	list-style: none;
 }
 nav li a {
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 0 20px;
-	color: black;
+	padding: 0 30px;
+	color: red;
+	
 }
 
-
-main, footer{
-text-align: center;
-}
-
-.selected {
-	color:red;
+nav li a:hover{
+	 display: inline-block;
+    
+     color: #FF0000;
+     text-transform: uppercase;
+    
 }
 
 nav li a:hover {
-	color: #a45f93;
-}
+	color: #FFC0CB;
+} 
 
-#info {
-	font-size: 20px;
-	height:245px;
-	margin: 0;
-	padding: 20px;
+.selected {
+	color: red;
 
 }
+.nav{
+	font-family: 'Cormorant Infant', serif;
+}
+
 
 #order {
-	font-size: 20px;
-	height:400px;
+	width: max-width;
+	font-family: 'Gabriela', serif;
+	text-align: left;
+	font-size: 22px;
+	height:500px;
 	margin: 0;
 	padding: 20px;
-	background-image:"lviv.jpg";
-	border-top-style: solid;
+	background-image: url("../pictures/pen-on-paper.jpg");
+    background-size: cover;
+	border-top-style: none;
 	line-height: 3;
+	justify-content: flex-start;
 }
 
 #who-we-are {
+	width: max-width;
+	font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
-	height:500px;
+	height:350px;
 	margin: 1px 1px 1px 1px;
 	padding: 20px;
-	border-top-style: solid;
-	line-height: 1.5;
+	border-top-style: none;
+	line-height: 2;
+}
+
+#pictures {
+
+	font-family: 'Cormorant Garamond', serif;
+	color: #F5F5F5;
+ 	height:500px;
+	margin: 0;
+	padding: 50px;
+	background-image: url("../pictures/lviv.jpg");
+    background-size: cover;
+	border-top-style: none;
+	line-height: 1,5;	
 }
 
 #service {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
-	background-color: #F2F2F2;
+	height:850px;
+	width: max-width;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	border-top-style: none;
+	line-height: 1,5;
+	padding: 20px;
+
 }
 
 
 #partners {
+	width: max-width;
+	font-family: 'Cormorant Garamond', serif;
 	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
-	background-color: #F2F2F2;
+	text-align: center;
+	line-height: 1,5;
+	padding: 20px;
+
 }
 
 #feedback {
+	width: max-width;
+	font-family: 'Cormorant Garamond', serif;
 	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
-	background-color: #F2F2F2;
+	line-height: 1,5;
+	padding: 20px;
+	
 }
 #contact {
+	width: max-width;
+	font-family: 'Cormorant Garamond', serif;
 	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
-	background-color: #F2F2F2;
+	line-height: 1,5;
+	padding: 20px;
 }
