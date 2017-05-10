@@ -73,15 +73,14 @@ text-align: center;
 	margin: 10px;
 	right: 20px;
 	justify-content: flex-start;
-	align-items: flex-end;
+	align-items: flex-start;
 }
 
 .title{
-	flex: 1;
+	flex: 4;
 	height: 140px;
 	justify-content: flex-start;
 	align-items: flex-start;
-	left: 0;
 }
 
 
@@ -101,11 +100,10 @@ text-align: center;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: flex-center;
-	word-spacing: 30px;
+	word-spacing: 40px;
 }
 
 .input {
-	
 	display: flex;
 	height: 40px;
 	width: 100px;
@@ -128,7 +126,7 @@ nav li a {
 	font-size: 23px;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 0 30px;
+	padding: 0 10px;
 	color: red;
 }
 
