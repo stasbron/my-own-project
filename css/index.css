@@ -16,7 +16,6 @@ text-align: center;
 
 #info {
 	height: 140px;
-    margin: 0;
     padding-bottom: 0;
     background-color: #FFFFFF;
 }
@@ -71,32 +70,50 @@ text-align: center;
 .logo{
 	flex: 1;
 	height: 140px;
-	margin: 10px, 10px, 10px, 10px;
-	right: 30px;
-	
+	margin: 10px;
+	right: 20px;
+	justify-content: flex-start;
+	align-items: flex-end;
 }
 
 .title{
 	flex: 1;
 	height: 140px;
+	justify-content: flex-start;
+	align-items: flex-start;
+	left: 0;
 }
 
 
-.numbers {
-	flex: 1;
+.my-flex-block2{
+	display: flex;
 	height: 40px;
-	margin-top: 0px;
-	width: 900px;
+	width: 100%;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.numbers {
+	margin: -10px;
+	display: flex;
+	height: 40px;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-center;
+	word-spacing: 30px;
 }
 
 .input {
-	flex: 1;
+	
+	display: flex;
 	height: 40px;
+	width: 100px;
+	right: 20px;
+	flex-direction: row;
+	justify-content: flex-center;
+	align-items: flex-start;
 }
-
-
-
-
 
 nav {
 	overflow: hidden;
@@ -108,7 +125,7 @@ nav li {
 	list-style: none;
 }
 nav li a {
-	font-size: 22px;
+	font-size: 23px;
 	font-weight: bold;
 	text-decoration: none;
 	padding: 0 30px;
@@ -118,7 +135,7 @@ nav li a {
 nav li a:hover{
 	 display: inline-block;
     
-     color: #FF0000;
+     color: #F5F5F5;
      text-transform: uppercase;
 }
 
@@ -141,17 +158,12 @@ nav li a:hover {
 	font-size: 1;
 }
 
-
-
-
-
-
 #order {
 	width: max-width;
 	font-family: 'Marck Script', cursive;
 	text-align: left;
 	font-size: 25px;
-	height:550px;
+	height:520px;
 	margin: 0;
 	padding: 20px;
 	background-image: url("../pictures/pen-on-paper.jpg");
